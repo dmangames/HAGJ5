@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{77ea3e43-f084-4df7-b756-b9287a1a061a}">
 		<property name="name">
-			<value>Pigeon</value>
+			<value>PigeonCoo</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{a4f09ff7-0ba0-47db-a393-a188f3889260}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{4fb2b14d-3766-4eee-b3a1-449e64a69001}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{2cdd2855-46f9-4dad-b672-0b31a1420c3b}">
 		<relationship name="masterBus">
@@ -56,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{37742e0b-0371-4b06-95c0-6cd0b96bc418}" />
 	<object class="MarkerTrack" id="{655a533b-dd36-422a-af11-306f102c7ba1}" />
 	<object class="GroupTrack" id="{91fb5ddf-1ffe-48e4-80db-0a35447ace47}">
+		<relationship name="modules">
+			<destination>{f33935b0-2b98-46dc-8609-0bb63b3a8607}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d411309a-05ec-4bec-aed3-ab35c3bfeeb4}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{a4f09ff7-0ba0-47db-a393-a188f3889260}" />
+	<object class="Timeline" id="{a4f09ff7-0ba0-47db-a393-a188f3889260}">
+		<relationship name="modules">
+			<destination>{f33935b0-2b98-46dc-8609-0bb63b3a8607}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{f5351b41-20a9-489a-b1bd-06bb54e77c7e}">
 		<relationship name="effectChain">
 			<destination>{af3bd330-9993-41cf-aabd-f68a1c7792e8}</destination>
@@ -78,9 +88,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3a18c2cd-4dde-4d5b-b3ce-455df1b22ed2}" />
+	<object class="MultiSound" id="{f33935b0-2b98-46dc-8609-0bb63b3a8607}">
+		<property name="length">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="EventMixerGroup" id="{d411309a-05ec-4bec-aed3-ab35c3bfeeb4}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Coos</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{f4900062-c2b5-437e-acc7-6a180466cdac}</destination>
