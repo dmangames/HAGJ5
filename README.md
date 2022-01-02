@@ -21,3 +21,9 @@ Put all art assets in the Art folder under the Assets folder.
 
 # Instruction for Text uploads
 Put all .txt or .word files in the Writing folder under the Assets folder.
+
+
+# How this repo flows
+Devs will checkout new branches based off main (git checkout -b featureBranch main)
+They will then do work on those branches then push and do a pull request.
+After each successful feature or art update, I will archive the repo into final.
