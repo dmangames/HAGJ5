@@ -2,6 +2,7 @@
 Historically Accurate Game Jam 5 (team game jam submission)
 
 # How to contribute
+-Download Unity 2020.3.24f1
 -Make sure you tell Dmangames your github account name  
 -Accept the invite to contribute (should be in your email)  
 -Download github desktop for windows or mac https://desktop.github.com/  
