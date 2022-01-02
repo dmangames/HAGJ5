@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - document
+  - document_closeup
+  - switch_to_hand
+  - switch_to_paper
   layers:
   - Default
   - TransparentFX
