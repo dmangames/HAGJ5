@@ -285,9 +285,6 @@
 		<property name="maximumTimeBetweenSounds">
 			<value>16000</value>
 		</property>
-		<property name="spawnRate">
-			<value>38</value>
-		</property>
 		<property name="volumeRandomization">
 			<value>-17.5</value>
 		</property>
@@ -513,7 +510,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{d454e1b5-8f46-458a-a11a-296588ae9630}">
 		<property name="volume">
-			<value>-18.5</value>
+			<value>-22.5</value>
 		</property>
 		<property name="name">
 			<value>WoodenCreak</value>
