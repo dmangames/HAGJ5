@@ -12,15 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 800cdbf1c66ecee44aec1738e1ecd838, type: 3}
   m_Name: Corey Giles
   m_EditorClassIdentifier: 
-  firstName: 
-  lastName: 
-  health: 0
-  publicHysteria: 0
-  touchTest: 0
-  waterTest: 0
-  prayerTest: 0
-  cakeTest: 0
-  markTest: 0
-  prickTest: 0
-  incantationTest: 0
-  biography: 
+  firstName: Corey
+  lastName: Giles
+  health: 120
+  publicHysteria: 69
+  touchTest: 50
+  waterTest: 65
+  prayerTest: 81
+  cakeTest: 5
+  markTest: 29
+  prickTest: 13
+  incantationTest: 50
+  biography: Has a sharp mind and tongue. Never learned to swim as a boy. Goes to
+    church every sunday. Has callouses on hands and feet from working in the fields.
+    Owner of a very poorly behaved dog.
+  accusation: Elizabeth Parris and Abigail Williams began having fits and point to
+    Corey Giles having put a spell on them.
