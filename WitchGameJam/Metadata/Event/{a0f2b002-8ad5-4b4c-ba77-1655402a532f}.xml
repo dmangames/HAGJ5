@@ -5,7 +5,7 @@
 			<value>MusicGame</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{dafc128d-2670-4a5b-839d-5a82fde8f921}</destination>
@@ -123,9 +123,18 @@
 	<object class="MixerBusEffectChain" id="{3e2b1daf-c740-4c3e-8976-96c7206b08fd}">
 		<relationship name="effects">
 			<destination>{f2e556e3-8b94-4636-bbbe-93b3cb9f45d0}</destination>
+			<destination>{7aed9a00-83bb-4b13-8be7-19f1d627c42f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5cdee532-071f-462c-a03c-4559d8e4d488}" />
 	<object class="MixerBusFader" id="{b0b98712-98a6-4db8-ace6-4dad53564fbc}" />
 	<object class="MixerBusFader" id="{f2e556e3-8b94-4636-bbbe-93b3cb9f45d0}" />
+	<object class="PannerEffect" id="{7aed9a00-83bb-4b13-8be7-19f1d627c42f}">
+		<property name="surroundStereoSeparation">
+			<value>139.551346</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>5</value>
+		</property>
+	</object>
 </objects>
