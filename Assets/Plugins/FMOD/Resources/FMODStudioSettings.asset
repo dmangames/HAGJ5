@@ -128,13 +128,13 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
+  - e7a046c753c3c3d4aacc91f6597f310d
+  - 0f8eb3f400726694eb47beb1a9f94ce8
   - c88d16e5272a4e241b0ef0ac2e53b73d
+  - b7716510a1f36934c87976f3a81dbf3d
   - fd7c55dab0fce234b8c25f6ffca523c1
   - 2c5177b11d81d824dbb064f9ac8527da
-  - e7a046c753c3c3d4aacc91f6597f310d
   - 52eb9df5db46521439908db3a29a1bbb
-  - b7716510a1f36934c87976f3a81dbf3d
-  - 0f8eb3f400726694eb47beb1a9f94ce8
   - 46fbfdf3fc43db0458918377fd40293e
   - 2fea114e74ecf3c4f920e1d5cc1c4c40
 --- !u!114 &-610864421884272270
@@ -216,8 +216,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: 
-  sourceBankPath: 
+  sourceProjectPath: WitchGameJam/WitchGameJam.fspro
+  sourceBankPath: WitchGameJam/Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -255,17 +255,17 @@ MonoBehaviour:
   HideSetupWizard: 0
   LastEventReferenceScanVersion: 0
   Platforms:
-  - {fileID: 9121226341892653644}
+  - {fileID: -5089516483504747517}
   - {fileID: -1037994843320591500}
+  - {fileID: -610864421884272270}
   - {fileID: 266775673815340601}
+  - {fileID: 743709543535465633}
   - {fileID: 1939551055139599106}
   - {fileID: 2246774629653854309}
-  - {fileID: -5089516483504747517}
   - {fileID: 2810732107241133787}
-  - {fileID: 743709543535465633}
-  - {fileID: -610864421884272270}
   - {fileID: 3209136640341132769}
   - {fileID: 5942721827642269371}
+  - {fileID: 9121226341892653644}
   MigratedPlatforms: 0c000000150000000b0000000a00000009000000120000000800000005000000060000000200000001000000
 --- !u!114 &266775673815340601
 MonoBehaviour:

@@ -92,8 +92,17 @@
 		<property name="length">
 			<value>2</value>
 		</property>
+		<relationship name="sounds">
+			<destination>{a9a8abae-a429-4292-b152-bb266c3bdbf6}</destination>
+			<destination>{a56e72d6-a0a3-4a7d-90b2-f030b7acc20e}</destination>
+			<destination>{e4955d19-fdc4-4cbb-90dd-26cc614c6531}</destination>
+			<destination>{4f8f2186-3574-402f-8695-7705583864b9}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1c8b240e-2ae3-4e54-ab4a-5192c2159d63}">
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<property name="name">
 			<value>WingFlaps</value>
 		</property>
@@ -115,6 +124,26 @@
 	</object>
 	<object class="MixerBusPanner" id="{6ed98e74-9197-467d-9fcb-297078e42a11}" />
 	<object class="MixerBusFader" id="{fcf915d2-2fe7-4493-99dd-eeb251e1dff7}" />
+	<object class="SingleSound" id="{a9a8abae-a429-4292-b152-bb266c3bdbf6}">
+		<relationship name="audioFile">
+			<destination>{b28c2ed1-9ba8-4eac-8374-c947bb14ac9f}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{a56e72d6-a0a3-4a7d-90b2-f030b7acc20e}">
+		<relationship name="audioFile">
+			<destination>{a71e62e9-0c53-4743-a835-d4576068da3d}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{e4955d19-fdc4-4cbb-90dd-26cc614c6531}">
+		<relationship name="audioFile">
+			<destination>{d4c141df-e08a-4021-aa04-068a4bc6437a}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{4f8f2186-3574-402f-8695-7705583864b9}">
+		<relationship name="audioFile">
+			<destination>{13c9aa95-eca8-4376-87d0-fe58dd42ad92}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{efc70ec5-e484-4a85-a71f-4389b13a3d81}">
 		<relationship name="effects">
 			<destination>{b2d43aa5-0a45-4b21-834f-00704abe1e7c}</destination>
