@@ -193,7 +193,7 @@
 			<value>74.617249999999999</value>
 		</property>
 		<property name="length">
-			<value>24.872416666666666</value>
+			<value>22.382750000000001</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{a20ae397-ac9c-4923-b606-1f3e885d88b7}</destination>
@@ -243,7 +243,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7dbe3346-d520-49d1-a904-0401fbcda876}">
 		<property name="name">
-			<value>Din</value>
+			<value>ChurchBell</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{322809d6-eeb6-4da7-aa55-1598ef6ab9b3}</destination>
@@ -371,7 +371,7 @@
 			<value>74.617249999999999</value>
 		</property>
 		<property name="length">
-			<value>24.872416666666666</value>
+			<value>22.382750000000001</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{0e8491ab-a56c-46cc-a2c9-222e9313e609}</destination>
@@ -530,7 +530,11 @@
 			<destination>{9a68d26b-4ec2-43d5-9089-335015341394}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{c3e29944-00f4-4fc2-823a-4e10d41396c7}" />
+	<object class="MixerBusPanner" id="{c3e29944-00f4-4fc2-823a-4e10d41396c7}">
+		<property name="surroundLFELevel">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{7f607f37-20f1-4fc5-b61d-1dfce400bf11}" />
 	<object class="FadeCurve" id="{a20ae397-ac9c-4923-b606-1f3e885d88b7}">
 		<relationship name="startPoint">
@@ -555,10 +559,18 @@
 	<object class="MixerBusPanner" id="{7338daa3-7bbd-4e08-ad95-6898c57efc59}" />
 	<object class="MixerBusEffectChain" id="{322809d6-eeb6-4da7-aa55-1598ef6ab9b3}">
 		<relationship name="effects">
+			<destination>{d6354d90-7f48-4b3e-881c-6d88498c3329}</destination>
 			<destination>{ae20de2e-b339-4f29-bfca-25b5cd092446}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{0287e7d7-696e-4d64-82f6-d3d4189e1280}" />
+	<object class="MixerBusPanner" id="{0287e7d7-696e-4d64-82f6-d3d4189e1280}">
+		<property name="surroundPanExtent">
+			<value>126.399979</value>
+		</property>
+		<property name="surroundLFELevel">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="MultiSound" id="{0892c677-2044-4352-b516-72a08ead8605}">
 		<relationship name="sounds">
 			<destination>{6b44d54a-ae6f-4641-a524-846a24e3b1ee}</destination>
@@ -705,7 +717,7 @@
 	<object class="MixerBusFader" id="{9a68d26b-4ec2-43d5-9089-335015341394}" />
 	<object class="AutomationPoint" id="{0be102c2-7531-4e3f-8927-628095e5e7b8}">
 		<property name="position">
-			<value>97</value>
+			<value>88.510333333333335</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -716,7 +728,7 @@
 	</object>
 	<object class="AutomationPoint" id="{ffe2e1ef-f18d-457f-bd46-4185be216df3}">
 		<property name="position">
-			<value>99.489666666666665</value>
+			<value>97</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -732,6 +744,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{d3850102-0bea-40fe-a89d-afb7b201e9a4}" />
+	<object class="PannerEffect" id="{d6354d90-7f48-4b3e-881c-6d88498c3329}">
+		<property name="overridingOutputFormat">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ae20de2e-b339-4f29-bfca-25b5cd092446}" />
 	<object class="SingleSound" id="{6b44d54a-ae6f-4641-a524-846a24e3b1ee}">
 		<relationship name="audioFile">
@@ -884,7 +901,7 @@
 	<object class="MixerBusFader" id="{de4ab0e3-88c7-4ca4-84c0-6e565e88a096}" />
 	<object class="AutomationPoint" id="{afffc9f1-b25b-461b-8abd-40885e6feae0}">
 		<property name="position">
-			<value>96</value>
+			<value>86.510333333333335</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -895,7 +912,7 @@
 	</object>
 	<object class="AutomationPoint" id="{ce983a7e-c595-48c4-ba58-d6a4a297ad08}">
 		<property name="position">
-			<value>99.489666666666665</value>
+			<value>97</value>
 		</property>
 		<property name="value">
 			<value>0</value>
