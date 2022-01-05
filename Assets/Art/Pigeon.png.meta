@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: af273ad7fe659c44f9231c88dbbecf8e
+guid: a76176ea33d0b9542a959b0ccb7717d9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 9046215376232531194
+    second: Pigeon_0
+  - first:
+      213: 6505781585981187687
+    second: Pigeon_1
+  - first:
+      213: 7945509868782824717
+    second: Pigeon_2
+  - first:
+      213: -4462544756989265850
+    second: Pigeon_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +53,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -89,7 +101,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pigeon_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 539
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4440ea4fc9a8d70800000000000000
+      internalID: 9046215376232531194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pigeon_1
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 0
+        width: 540
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766afa222ed294a50800000000000000
+      internalID: 6505781585981187687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pigeon_2
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 539
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d2928e02f144e60800000000000000
+      internalID: 7945509868782824717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pigeon_3
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 0
+        width: 539
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6487f55ef2bd112c0800000000000000
+      internalID: -4462544756989265850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

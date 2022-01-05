@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(Collider2D))]
 public class Draggable : MonoBehaviour
 {
+    public bool alwaysReturn;
     private Vector3 screenPoint;
     private Vector3 originalPosition;
     private Vector3 offset;
@@ -14,7 +15,7 @@ public class Draggable : MonoBehaviour
     {
         originalPosition = transform.position;
         screenPoint = Camera.main.transform.position;
-        zlift = new Vector3(0, 0, -5);
+        zlift = new Vector3(0, 0, -15);
     }
 
     private void OnMouseDown()
@@ -31,6 +32,26 @@ public class Draggable : MonoBehaviour
 
     private void OnMouseUp()
     {
-        transform.position = new Vector3(transform.position.x, transform.position.y, originalPosition.z);
+        if(alwaysReturn)
+        {
+            transform.position = originalPosition;
+            return;
+        }
+        //try to place the card down on a surface hit by raycast
+        int layerMask = (LayerMask.GetMask("surface"));
+        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, 30,layerMask);
+
+        if (hit.collider != null)
+        {
+            Debug.Log("Target Name: " + hit.collider.gameObject.name);
+            Debug.Log("Target Position: " + hit.collider.gameObject.transform.position);
+            transform.position = new Vector3(transform.position.x, transform.position.y, hit.collider.gameObject.transform.position.z - 0.1f);
+        }
+        else
+        {
+            transform.position = originalPosition;
+        }
+
+
     }
 }
