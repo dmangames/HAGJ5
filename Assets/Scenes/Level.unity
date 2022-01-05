@@ -621,6 +621,36 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3399440104464639984, guid: 4e89b8bada437784f97a94abd0d49245, type: 3}
   m_PrefabInstance: {fileID: 3399440104132867410}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &400200355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400200354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 790178716
+      Data2: 1273322731
+      Data3: -200189514
+      Data4: 1852723845
+    Path: event:/SFX/PaperShuffle
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &400200359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2806,6 +2836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1182081137}
   - component: {fileID: 1182081136}
+  - component: {fileID: 1182081138}
   m_Layer: 0
   m_Name: Paper__paper_1
   m_TagString: Untagged
@@ -2878,6 +2909,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1182081138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182081135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 790178716
+      Data2: 1273322731
+      Data3: -200189514
+      Data4: 1852723845
+    Path: event:/SFX/PaperShuffle
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1185298414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2972,6 +3033,7 @@ GameObject:
   - component: {fileID: 1231546710}
   - component: {fileID: 1231546713}
   - component: {fileID: 1231546712}
+  - component: {fileID: 1231546714}
   m_Layer: 0
   m_Name: p__0000s_0004_Layer-5
   m_TagString: Untagged
@@ -3084,6 +3146,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.62, y: 3.36}
   m_EdgeRadius: 0
+--- !u!114 &1231546714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231546709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 790178716
+      Data2: 1273322731
+      Data3: -200189514
+      Data4: 1852723845
+    Path: event:/SFX/PaperShuffle
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1290184997
 GameObject:
   m_ObjectHideFlags: 0
@@ -4515,6 +4607,10 @@ PrefabInstance:
     - target: {fileID: 3399440104464639984, guid: 4e89b8bada437784f97a94abd0d49245, type: 3}
       propertyPath: m_Name
       value: portrait_paper
+      objectReference: {fileID: 0}
+    - target: {fileID: 3399440104464639984, guid: 4e89b8bada437784f97a94abd0d49245, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3399440104464639990, guid: 4e89b8bada437784f97a94abd0d49245, type: 3}
       propertyPath: m_RootOrder
