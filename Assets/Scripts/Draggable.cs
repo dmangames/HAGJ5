@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Collider2D))]
 public class Draggable : MonoBehaviour
 {
     public bool alwaysReturn;
+    public bool dontStick;
     private Vector3 screenPoint;
     private Vector3 originalPosition;
     private Vector3 offset;
@@ -20,18 +22,29 @@ public class Draggable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
+        if (!EventSystem.current.IsPointerOverGameObject()) 
+            offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
     }
 
     private void OnMouseDrag()
     {
-        Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
-        Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset + zlift;
-        transform.position = curPosition;
+        if (!EventSystem.current.IsPointerOverGameObject())
+        {
+            Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
+            Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset + zlift;
+            transform.position = curPosition;
+        }
+            
     }
 
     private void OnMouseUp()
     {
+        if (dontStick)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, originalPosition.z);
+            return;
+        }
+            
         if(alwaysReturn)
         {
             transform.position = originalPosition;

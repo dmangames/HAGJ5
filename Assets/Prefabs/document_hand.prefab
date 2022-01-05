@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Viewport: {fileID: 187156210253859272}
   m_HorizontalScrollbar: {fileID: 187156210108945917}
   m_VerticalScrollbar: {fileID: 187156208713619693}
-  m_HorizontalScrollbarVisibility: 0
+  m_HorizontalScrollbarVisibility: 1
   m_VerticalScrollbarVisibility: 0
   m_HorizontalScrollbarSpacing: -3
   m_VerticalScrollbarSpacing: -3
@@ -984,6 +984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alwaysReturn: 0
+  dontStick: 1
 --- !u!50 &4829003504474205364
 Rigidbody2D:
   serializedVersion: 4
