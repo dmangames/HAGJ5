@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 56402555}
   - component: {fileID: 56402558}
   - component: {fileID: 56402557}
+  - component: {fileID: 56402559}
   m_Layer: 0
   m_Name: incantation_test_paper
   m_TagString: Untagged
@@ -329,6 +330,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5004077, y: 2.91}
   m_EdgeRadius: 0
+--- !u!114 &56402559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56402554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -815770728
+      Data2: 1270463273
+      Data3: 575157429
+      Data4: -827371840
+    Path: event:/SFX/CardPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &137253745
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 298125846}
   - component: {fileID: 298125845}
+  - component: {fileID: 298125847}
   m_Layer: 0
   m_Name: Mob
   m_TagString: Untagged
@@ -554,6 +586,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &298125847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298125844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1556042632
+      Data2: 1228082786
+      Data3: -438276434
+      Data4: -122348874
+    Path: event:/SFX/Footsteps
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &400200354 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3399440104464639984, guid: 4e89b8bada437784f97a94abd0d49245, type: 3}
@@ -605,6 +667,7 @@ GameObject:
   - component: {fileID: 408266625}
   - component: {fileID: 408266628}
   - component: {fileID: 408266627}
+  - component: {fileID: 408266629}
   m_Layer: 0
   m_Name: prick_test_paper
   m_TagString: Untagged
@@ -717,6 +780,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.9404795, y: 2.64}
   m_EdgeRadius: 0
+--- !u!114 &408266629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408266624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -815770728
+      Data2: 1270463273
+      Data3: 575157429
+      Data4: -827371840
+    Path: event:/SFX/CardPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &443547959
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +1005,7 @@ GameObject:
   - component: {fileID: 514370795}
   - component: {fileID: 514370798}
   - component: {fileID: 514370797}
+  - component: {fileID: 514370799}
   m_Layer: 0
   m_Name: prayer_test_paper
   m_TagString: Untagged
@@ -1024,6 +1118,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.7404468, y: 2.97}
   m_EdgeRadius: 0
+--- !u!114 &514370799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514370794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -815770728
+      Data2: 1270463273
+      Data3: 575157429
+      Data4: -827371840
+    Path: event:/SFX/CardPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &560935886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,6 +1303,7 @@ GameObject:
   - component: {fileID: 631355112}
   - component: {fileID: 631355111}
   - component: {fileID: 631355110}
+  - component: {fileID: 631355114}
   m_Layer: 0
   m_Name: water_test_paper
   m_TagString: Untagged
@@ -1291,6 +1416,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &631355114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631355109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -815770728
+      Data2: 1270463273
+      Data3: 575157429
+      Data4: -827371840
+    Path: event:/SFX/CardPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,6 +1715,7 @@ GameObject:
   - component: {fileID: 834177663}
   - component: {fileID: 834177666}
   - component: {fileID: 834177665}
+  - component: {fileID: 834177667}
   m_Layer: 0
   m_Name: mark_test_paper
   m_TagString: Untagged
@@ -1672,6 +1828,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.9603196, y: 2.78}
   m_EdgeRadius: 0
+--- !u!114 &834177667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834177662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -815770728
+      Data2: 1270463273
+      Data3: 575157429
+      Data4: -827371840
+    Path: event:/SFX/CardPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &836495107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2122,6 +2308,7 @@ GameObject:
   - component: {fileID: 1108352583}
   - component: {fileID: 1108352586}
   - component: {fileID: 1108352585}
+  - component: {fileID: 1108352587}
   m_Layer: 0
   m_Name: rule_book_paper
   m_TagString: Untagged
@@ -2234,6 +2421,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.2408547, y: 5.04}
   m_EdgeRadius: 0
+--- !u!114 &1108352587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108352582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2094990942
+      Data2: 1244142228
+      Data3: -399304527
+      Data4: -1882048472
+    Path: event:/SFX/LawBookPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1158320213
 GameObject:
   m_ObjectHideFlags: 0
@@ -2246,6 +2463,8 @@ GameObject:
   - component: {fileID: 1158320214}
   - component: {fileID: 1158320216}
   - component: {fileID: 1158320217}
+  - component: {fileID: 1158320218}
+  - component: {fileID: 1158320219}
   m_Layer: 0
   m_Name: table_props_better_2
   m_TagString: Untagged
@@ -2362,6 +2581,66 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alwaysReturn: 1
   dontStick: 0
+--- !u!114 &1158320218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158320213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1659951644
+      Data2: 1278311594
+      Data3: 2041667740
+      Data4: -930136290
+    Path: event:/SFX/QuillPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1158320219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158320213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1045502747
+      Data2: 1237576402
+      Data3: -765554290
+      Data4: 1350569894
+    Path: event:/SFX/QuillPutBack
+  Event: 
+  PlayEvent: 16
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1162087701
 GameObject:
   m_ObjectHideFlags: 0
@@ -2374,6 +2653,7 @@ GameObject:
   - component: {fileID: 1162087702}
   - component: {fileID: 1162087705}
   - component: {fileID: 1162087704}
+  - component: {fileID: 1162087706}
   m_Layer: 0
   m_Name: cake_test_paper
   m_TagString: Untagged
@@ -2486,6 +2766,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8403001, y: 2.83}
   m_EdgeRadius: 0
+--- !u!114 &1162087706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162087701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -815770728
+      Data2: 1270463273
+      Data3: 575157429
+      Data4: -827371840
+    Path: event:/SFX/CardPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1182081135
 GameObject:
   m_ObjectHideFlags: 0
