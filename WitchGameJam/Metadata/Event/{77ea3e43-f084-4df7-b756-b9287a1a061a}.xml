@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{77ea3e43-f084-4df7-b756-b9287a1a061a}">
 		<property name="name">
-			<value>Pigeon</value>
+			<value>PigeonActive</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -221,7 +221,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{96ad011b-a55e-4289-9d29-bfe6669e2f98}" />
 	<object class="MixerBusFader" id="{c4269c30-079f-435f-9075-d9fda3bed397}" />
-	<object class="SpatialiserEffect" id="{7b97a82c-1f88-43d5-874e-d12d9df2485d}" />
+	<object class="SpatialiserEffect" id="{7b97a82c-1f88-43d5-874e-d12d9df2485d}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{cca4d4cf-1119-4fb0-be2d-fc01a5041f53}" />
 	<object class="MixerBusFader" id="{70b61d1a-a405-4866-8239-8fdde04cf0b5}" />
 </objects>

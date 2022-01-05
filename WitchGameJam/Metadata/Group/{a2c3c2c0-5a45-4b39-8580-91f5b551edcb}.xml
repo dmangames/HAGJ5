@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="MixerGroup" id="{a2c3c2c0-5a45-4b39-8580-91f5b551edcb}">
 		<property name="volume">
-			<value>4.5</value>
+			<value>-16</value>
 		</property>
 		<property name="name">
 			<value>Environment</value>
@@ -14,7 +14,7 @@
 			<destination>{eaf201e8-5955-4b66-8629-41daa42a3ae7}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{8341c4ec-dc60-496a-b613-e81eea35e6ac}</destination>
+			<destination>{6c69955e-3d66-4b87-93d8-61c14be26fc4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{3c4da1f5-f883-49dc-ae3a-d4491f67d697}">

@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{2a4c5721-59f2-4d63-b857-1097c94622cc}" />
 	<object class="GroupTrack" id="{24236ffa-2aba-4c60-a9fd-72ad6268822e}">
 		<relationship name="modules">
-			<destination>{ad50a779-7fe2-4965-bd47-a275093e248b}</destination>
+			<destination>{8b668871-ed21-45ef-9192-955ac1f3c46f}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{05a7acca-5654-4ab8-917c-f5f800fb9bad}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{ca0892d8-2555-4f26-ba80-da6291849d63}">
 		<relationship name="modules">
-			<destination>{ad50a779-7fe2-4965-bd47-a275093e248b}</destination>
+			<destination>{8b668871-ed21-45ef-9192-955ac1f3c46f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5ec1a637-8790-459e-9215-05252f0ffb4d}">
@@ -88,10 +88,13 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4dc517c7-8904-48d2-9e24-befd652df07c}" />
-	<object class="MultiSound" id="{ad50a779-7fe2-4965-bd47-a275093e248b}">
+	<object class="SingleSound" id="{8b668871-ed21-45ef-9192-955ac1f3c46f}">
 		<property name="length">
-			<value>2</value>
+			<value>0.66131249999999997</value>
 		</property>
+		<relationship name="audioFile">
+			<destination>{6f878f99-3be0-415b-91aa-58271cb54b96}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{05a7acca-5654-4ab8-917c-f5f800fb9bad}">
 		<property name="name">
@@ -122,6 +125,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{5f7bda3d-2cca-493d-b374-509150598537}" />
 	<object class="MixerBusFader" id="{60c6acb2-0c0c-4a9f-9be4-b785e9cb7bee}" />
-	<object class="SpatialiserEffect" id="{7393a379-246d-4680-a7ad-9ca87dc8ff7c}" />
+	<object class="SpatialiserEffect" id="{7393a379-246d-4680-a7ad-9ca87dc8ff7c}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c0e350eb-eec4-473c-ac9a-7b5e218eef72}" />
 </objects>

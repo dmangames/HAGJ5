@@ -98,6 +98,9 @@
 		<property name="pitch">
 			<value>1.80000007</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{702fc503-056f-4243-b833-82fae727e05d}</destination>
 			<destination>{02773851-6434-49e0-ac61-a66c859ea307}</destination>
@@ -157,6 +160,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{dec356f6-038f-4f89-905c-21b33339c6ea}" />
 	<object class="MixerBusFader" id="{ed2e0da2-7279-40c3-9a72-7dfc06c1a59f}" />
-	<object class="SpatialiserEffect" id="{0dc192e9-6d39-4aec-928d-20b4363cdeb8}" />
+	<object class="SpatialiserEffect" id="{0dc192e9-6d39-4aec-928d-20b4363cdeb8}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{25cfdbf2-e982-4b31-a092-564d6447f125}" />
 </objects>
