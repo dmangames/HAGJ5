@@ -5,7 +5,7 @@
 			<value>ButtonClickBellToll</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e325c42c-22f4-46a4-ac9f-22091161957d}</destination>
@@ -59,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{eb94672b-156e-4bbf-98c0-c51af732607e}" />
 	<object class="MarkerTrack" id="{49195215-4a97-4173-a247-74849b3d5d1b}" />
 	<object class="GroupTrack" id="{b5c72bd4-4275-446b-99e9-e53a6a022118}">
+		<relationship name="modules">
+			<destination>{1ec33a12-363d-44b8-9e58-18a71dd45fc3}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{47b011bb-c247-403d-acec-774fc041cb84}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{5165395a-26b8-41af-84c5-3be0868d7a9e}" />
+	<object class="Timeline" id="{5165395a-26b8-41af-84c5-3be0868d7a9e}">
+		<relationship name="modules">
+			<destination>{1ec33a12-363d-44b8-9e58-18a71dd45fc3}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{0627b53f-da2b-4e00-8681-318169fc0b16}">
 		<relationship name="effectChain">
 			<destination>{a3087f67-6a0f-485e-a53d-5b6a3f7aa5b4}</destination>
@@ -81,6 +88,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7b9432dd-6976-403a-820d-66d0937d860c}" />
+	<object class="SingleSound" id="{1ec33a12-363d-44b8-9e58-18a71dd45fc3}">
+		<property name="length">
+			<value>6.6719166666666663</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{890daf26-2b54-4541-b013-b5178dc57ef2}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{47b011bb-c247-403d-acec-774fc041cb84}">
 		<property name="name">
 			<value>Audio 1</value>

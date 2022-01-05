@@ -98,6 +98,9 @@
 		<property name="pitch">
 			<value>1.80000007</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{702fc503-056f-4243-b833-82fae727e05d}</destination>
 			<destination>{02773851-6434-49e0-ac61-a66c859ea307}</destination>
