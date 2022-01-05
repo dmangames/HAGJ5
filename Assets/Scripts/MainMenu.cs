@@ -23,5 +23,12 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(gameLevel);
     }
 
+    public void OnClickQuit()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        Application.Quit();
+    }
 
 }
