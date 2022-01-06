@@ -92,6 +92,9 @@
 		<property name="length">
 			<value>0.01</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{497c34af-905a-4b17-9d9a-e2cc8531493e}</destination>
 			<destination>{fc065314-e9a7-42f0-b0ee-4590ec232b7b}</destination>

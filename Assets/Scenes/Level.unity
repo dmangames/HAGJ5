@@ -1616,8 +1616,8 @@ MonoBehaviour:
       Data4: -1644238154
     Path: event:/SFX/PigeonIdle
   Event: 
-  PlayEvent: 1
-  StopEvent: 2
+  PlayEvent: 15
+  StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -2580,7 +2580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1696871831
 Transform:
   m_ObjectHideFlags: 0
@@ -4120,6 +4120,10 @@ PrefabInstance:
     - target: {fileID: 1221985190370513718, guid: 36674abb1fd042a4f8d4dbc6e4187c09, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221985190370513719, guid: 36674abb1fd042a4f8d4dbc6e4187c09, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36674abb1fd042a4f8d4dbc6e4187c09, type: 3}

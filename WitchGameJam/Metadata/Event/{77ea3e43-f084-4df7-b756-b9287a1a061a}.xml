@@ -105,6 +105,9 @@
 		<property name="length">
 			<value>1.5</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{589b7d75-ab1c-4365-87e2-e339884cea60}</destination>
 			<destination>{210b4a59-53a4-4a97-ac6b-21cd42be3159}</destination>
@@ -133,6 +136,9 @@
 	<object class="MultiSound" id="{7840210a-4aa0-48e4-9c87-c419322ea462}">
 		<property name="length">
 			<value>1.5</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{7d4d7123-39c1-4cb5-b6b7-b2bc87ea3927}</destination>
