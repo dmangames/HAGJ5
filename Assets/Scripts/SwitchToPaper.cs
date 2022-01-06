@@ -25,6 +25,10 @@ public class SwitchToPaper : MonoBehaviour
         {
             //create the game object and destroy the paper version
             GameObject so = Instantiate(switchToPaperObject);
+            if (gameObject.GetComponent<EvidenceHand>())
+            {
+                so.GetComponent<EvidencePaper>().evidenceResult = gameObject.GetComponent<EvidenceHand>().evidenceResult;
+            }
             Destroy(this.gameObject);
         }
 

@@ -418,7 +418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.00390625, y: 0.003479004}
+  m_AnchoredPosition: {x: 0.0010986328, y: 0.003479004}
   m_SizeDelta: {x: 984, y: 2000}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &187156209205475864
@@ -561,54 +561,28 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The examination of Nehemiah Abbot , at a court at Salem village, by John
-    Hawthorne and Jonathan Corwin Esqrs. 22nd April 1692 .
-
-
-
-    What say you, are
-    you guilty of witchcraft, of which you are sus- pected, or not? No Sir, I say
-    before God, before whom I stand, that I know nothing of witchcraft. Who is this
-    man? Ann Putman named him. -- Mary Walcot said she had seen his shape. What do
-    you say to this? I never did hurt them. Who hurt you Ann Putman ? That man. I
-    never hurt her. Ann Putman said, he is upon the beam. Just such a discovery of
-    the person carried out, and she confessed; and if you would find mercy of God,
-    you must confess. -- If I should confess this, I must confess what is false.
-    Tell how far you have gone, who hurts you? I do not know, I am absolutely free.
-    As you say, God knows. If you will confess the truth, we desire nothing else
-    that you may not hide you guilt, if you are guilty, and therefore confess if
-    so. I speak before God that I am clear from this accusation. What, in all respects?
-    Yes in all respects. Doth this man hurt you? Their mouths were stopped. You hear
-    several accuse you, though one cannot open her mouth. I am altogether free. Charge
-    him not unless it be he. This is the man say some, and some say he is very like
-    him. How did you know his name? He did not tell me himself, but other witches
-    told me. Ann Putman said, it is the same man, and then she was taken with a fit.
-    Mary Walcot , is this the man? He is like him, I cannot say it is he. Mercy Lewis
-    said it is not the man. They all agreed, the man had a bunch on his eyes. Ann
-    Putman , in a fit, said, be you the man? ay, do you say you be the man? did you
-    put a mist before my eyes? Then he was sent forth till several others were examined.
-    When he was brought in again, by reason of much people, and many in the win-
-    dows so that the accusers could not have a clear view of him, he was ordered
-    to be abroad, and the accusers to go forth to him and view him in the light,
-    which they did, and in the presence of the magis- trates and many others discoursed
-    quietly with him, one and all acquitting him, but yet said he was like that man,
-    but he had not the wen they saw in his apparition, Note, he was a hilly faced
-    man and stood shaded by reason of his own hair, so that for a time he seemed
-    to some by-standers and observers, to be considerably like the person the afflicted
-    did describe.
-
-
-
-    Mr. Samuel Parris , being desired to take in writing the
-    examina- tion of Nehemiah Abbot , hath delivered it as aforesaid, and upon hearing
-    the same did see cause to dismiss him.
-
-
-
-    John Hawthorne
-
-    Jona. Corwin
-    { Assistants.'
+  m_text: "Witnesses\r\nSarah Holton \u2013 Witness 1\r\nThe Deposition of Sara Holton
+    ,Reluque of Benjamine Holton Deceased who testifieth and saith that about this
+    time three years my deare and loveing usband Benjamine Holton Deceased: \r\nwas
+    as well as ever I knew him in my life: tell one saterday morning Rebekah Nurs
+    who now stands charged for wicthcraft. came to our house and fell a railing at
+    him because our piggs gott into hir field: tho our piggs were sufficiently yoaked
+    and their fence was down in severall places: yett all we could say to hir could
+    no ways passifie hir: but she continewed Railing and scolding agrat while together
+    calling to hir son Benj. Nurs to goe and git a gun and kill our piggs and lett
+    non of them goe out of the field: tho my poor Husband gave hir never amissbeholding
+    word: and within ashort time affter this my poor Husband goeing out very early
+    in the morning: as he was a coming. in againe he was taken with a strainge fitt
+    in the entery being struck blind and stricken down two or three times so that
+    when he came to himself he tould me he thought he should never have com into
+    the house any more: and all summer affter he continewed in a languishing condition
+    being much pained at his stomack and often struck blind: but about a fortnight
+    before he dyed he was taken with strange and violent fitts acting much like out
+    poor bewicthed parsons when we thought they would have dyed and the Doctor. that
+    was with him could not find what his distemper was: and the day before he dyed
+    he was very chearly but about midnight he was againe most violently sezed upon
+    with violent fitts tell the next night about midnight he departed this life by
+    a cruel death Jurat in Curia "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e6ca430a8bb57b64a80201109c949ad5, type: 2}
   m_sharedMaterial: {fileID: -1812489690650294793, guid: e6ca430a8bb57b64a80201109c949ad5, type: 2}
@@ -833,8 +807,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 187156209033433327}
   m_HandleRect: {fileID: 187156209033433328}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.99999535
+  m_Value: 1
+  m_Size: 0.9999956
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

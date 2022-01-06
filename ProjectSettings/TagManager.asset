@@ -9,6 +9,7 @@ TagManager:
   - switch_to_hand
   - switch_to_paper
   - trial
+  - order
   layers:
   - Default
   - TransparentFX
