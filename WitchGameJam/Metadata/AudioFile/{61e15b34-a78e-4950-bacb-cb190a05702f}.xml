@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{61e15b34-a78e-4950-bacb-cb190a05702f}">
+		<property name="assetPath">
+			<value>SFX_LawBook_PutDown_04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.62404166666666672</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8351ab91-0790-46bd-b159-9c2e6204682c}</destination>
+		</relationship>
+	</object>
+</objects>

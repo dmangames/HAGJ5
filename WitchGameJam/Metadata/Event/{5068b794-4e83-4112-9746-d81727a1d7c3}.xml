@@ -90,12 +90,12 @@
 	<object class="MixerBusPanner" id="{5434260e-0716-4e36-a9e5-079374e4ea78}" />
 	<object class="MultiSound" id="{f05a4759-6607-4c7d-a8eb-3ae4b68d2aa3}">
 		<property name="length">
-			<value>2</value>
+			<value>2.4500000000000002</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
-		<property name="playlistMode">
+		<property name="playCount">
 			<value>1</value>
 		</property>
 		<relationship name="sounds">

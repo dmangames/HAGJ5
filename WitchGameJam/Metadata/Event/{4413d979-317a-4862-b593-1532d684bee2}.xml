@@ -95,7 +95,7 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
-		<property name="playlistMode">
+		<property name="playCount">
 			<value>1</value>
 		</property>
 		<relationship name="sounds">

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{bdc831c8-e9b0-4933-a3ee-377b31fee95e}">
+		<property name="assetPath">
+			<value>SFX_PaperPickUp_03.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.0816874999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8351ab91-0790-46bd-b159-9c2e6204682c}</destination>
+		</relationship>
+	</object>
+</objects>

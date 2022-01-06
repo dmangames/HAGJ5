@@ -108,6 +108,9 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<property name="playCount">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{589b7d75-ab1c-4365-87e2-e339884cea60}</destination>
 			<destination>{210b4a59-53a4-4a97-ac6b-21cd42be3159}</destination>
