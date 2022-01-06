@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
+using FMOD;
 
 public class Pigeon : MonoBehaviour
 {
@@ -13,6 +15,9 @@ public class Pigeon : MonoBehaviour
     public Sprite pigeonFlap;
     public Sprite pigeonFly;
     public Sprite pigeonGone;
+
+    public EventReference pigeonIdle;
+    public EventReference pigeonActive;
 
     private GameObject something;
     private bool somethingOnPigeon;
@@ -70,6 +75,14 @@ public class Pigeon : MonoBehaviour
             sr.sprite = pigeonFlap;
             Invoke("PigeonFlyAway", 1f);
         }
+        //FMOD.Studio.EventInstance PigeonIdle = FMODUnity.RuntimeManager.CreateInstance(pigeonIdle);
+        //PigeonIdle.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
+        //PigeonIdle.setVolume(1000);
+        //PigeonIdle.start();
+        ////PigeonIdle.release();
+
+        FMODUnity.RuntimeManager.PlayOneShot(pigeonActive, transform.position);
+
     }
 
     private void PigeonCarryOrder()
