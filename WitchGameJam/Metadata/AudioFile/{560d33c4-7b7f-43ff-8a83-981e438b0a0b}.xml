@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{560d33c4-7b7f-43ff-8a83-981e438b0a0b}">
 		<property name="assetPath">
-			<value>SFX_PigeonCoo_Idle__02.wav</value>
+			<value>SFX/SFX_PigeonCoo_Idle__02.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

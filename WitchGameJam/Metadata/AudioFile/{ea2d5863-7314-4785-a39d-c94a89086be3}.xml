@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{ea2d5863-7314-4785-a39d-c94a89086be3}">
 		<property name="assetPath">
-			<value>SFX_PlayingCard_PickUp_03.wav</value>
+			<value>SFX/SFX_PlayingCard_PickUp_03.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

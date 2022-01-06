@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{d04c71f7-12ed-4180-adb2-577717cf1622}">
 		<property name="assetPath">
-			<value>SFX_EnvelopeOpen_01.wav</value>
+			<value>SFX/SFX_EnvelopeOpen_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

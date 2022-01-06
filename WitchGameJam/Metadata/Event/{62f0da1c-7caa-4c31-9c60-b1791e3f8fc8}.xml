@@ -92,6 +92,9 @@
 		<property name="length">
 			<value>0.82000000000000006</value>
 		</property>
+		<property name="volume">
+			<value>7</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -129,7 +132,14 @@
 			<destination>{32e2edce-a592-4216-b4bc-ece8ca8afedb}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{ce82d37a-c9cf-48b6-bcb7-9aea785cfb30}" />
+	<object class="MixerBusPanner" id="{ce82d37a-c9cf-48b6-bcb7-9aea785cfb30}">
+		<property name="surroundPanDirection">
+			<value>1.41442323</value>
+		</property>
+		<property name="surroundPanExtent">
+			<value>17.5517178</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{28cb6d52-b3bf-478e-88ed-152eab873750}" />
 	<object class="SingleSound" id="{070f31b0-3594-4232-a499-19e3a81490ab}">
 		<relationship name="audioFile">
@@ -165,10 +175,10 @@
 	<object class="MixerBusFader" id="{2508c9ba-0a9e-4ab2-9ef6-52a3306e44df}" />
 	<object class="SpatialiserEffect" id="{32e2edce-a592-4216-b4bc-ece8ca8afedb}">
 		<property name="extentMode">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="soundSize">
-			<value>1</value>
+			<value>0.200000003</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{cabdbb12-8e04-4e29-9ccf-134712615a03}" />

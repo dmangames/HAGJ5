@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{7263e6be-4b5d-473e-ac1e-d2e163dcdb4f}">
 		<property name="assetPath">
-			<value>SFX_Quill_PutDown_02.wav</value>
+			<value>SFX/SFX_Quill_PutDown_02.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
