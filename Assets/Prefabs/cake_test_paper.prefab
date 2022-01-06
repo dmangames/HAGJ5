@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2311619155854220692}
   - component: {fileID: 7645999855489706315}
   - component: {fileID: 4270995659224773397}
+  - component: {fileID: 8201997851992724786}
   m_Layer: 0
   m_Name: cake_test_paper
   m_TagString: Untagged
@@ -160,3 +161,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchToHandObject: {fileID: 8984586599800613314, guid: ddd778153c403644fb5c9c33f8ee70f8, type: 3}
+--- !u!114 &8201997851992724786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2311619155854220697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -815770728
+      Data2: 1270463273
+      Data3: 575157429
+      Data4: -827371840
+    Path: event:/SFX/CardPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6502888086749602496}
   - component: {fileID: 3000708771300153794}
   - component: {fileID: 6021224259365153323}
+  - component: {fileID: 2054146952456591129}
   m_Layer: 0
   m_Name: prick_test_paper
   m_TagString: Untagged
@@ -160,3 +161,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchToHandObject: {fileID: 7399851644639836517, guid: a1004a426fb31074faebe7d1a704ccc6, type: 3}
+--- !u!114 &2054146952456591129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6502888086749602499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -815770728
+      Data2: 1270463273
+      Data3: 575157429
+      Data4: -827371840
+    Path: event:/SFX/CardPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

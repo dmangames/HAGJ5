@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3448897419168237549}
   - component: {fileID: 1795753521142859232}
   - component: {fileID: 2733193081110418119}
+  - component: {fileID: 7465196231739161867}
   m_Layer: 0
   m_Name: incantation_test_paper
   m_TagString: Untagged
@@ -160,3 +161,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchToHandObject: {fileID: 6274472360600100600, guid: 15856fa6e3b6d1e40982da50ec02faff, type: 3}
+--- !u!114 &7465196231739161867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3448897419168237546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -815770728
+      Data2: 1270463273
+      Data3: 575157429
+      Data4: -827371840
+    Path: event:/SFX/CardPickUp
+  Event: 
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

@@ -105,7 +105,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814968800417198003}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -6.4}
   m_LocalScale: {x: 0.012, y: 0.012, z: 0.01}
   m_Children:
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72abdbba245466740b1155a62df1d287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  switchToPaperObject: {fileID: 2191849669218849021, guid: f5f91271f12642b4cb22e940e5d28998, type: 3}
+  switchToPaperObject: {fileID: 3399440104464639984, guid: 4e89b8bada437784f97a94abd0d49245, type: 3}
 --- !u!1 &6259740750583755305
 GameObject:
   m_ObjectHideFlags: 0
