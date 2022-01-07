@@ -290,7 +290,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3efbbb61-83e8-46ad-b6d4-039aafcc78a5}">
 		<property name="volume">
-			<value>-8.5</value>
+			<value>-6</value>
 		</property>
 		<property name="name">
 			<value>Market</value>
@@ -361,6 +361,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0d3cd5a6-2bbd-4bab-abf2-1b1e0fb2b306}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Footsteps</value>
 		</property>
@@ -375,6 +378,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{52061acc-51f3-4205-8b6d-06b52798cfbb}">
+		<property name="start">
+			<value>21.996145833333333</value>
+		</property>
 		<property name="length">
 			<value>23.648562500000001</value>
 		</property>
@@ -384,7 +390,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7dbe3346-d520-49d1-a904-0401fbcda876}">
 		<property name="volume">
-			<value>-4</value>
+			<value>-7</value>
 		</property>
 		<property name="name">
 			<value>ChurchBell</value>
